@@ -18,7 +18,7 @@ function Login() {
     return (
         <div className="login">
             <div>
-                <h3>Welcome to Google Docs App</h3>
+                <h3>Welcome to Google Docs App * v3</h3>
                 <a className="btn" href={href}>
                     <div className="google-btn">
                         <div className="google-icon-wrapper">

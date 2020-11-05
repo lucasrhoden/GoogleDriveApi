@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Router, Switch, Route, Redirect } from "react-router-dom";
 import axios from "axios";
 
 import './App.css';
@@ -24,12 +24,14 @@ function App() {
   console.log(isAuth)
 
   return (
-    <div className="app-root">
-      <Switch>
-        <Route path="/" exact component={Login} />
-        {isAuth ? <Route path="/form" component={Form} /> : <Redirect to="/" /> }
-      </Switch>
-    </div>
+    <Router>
+      <div className="app-root">
+        <Switch>
+          <Route path="/" exact component={Login} />
+          {isAuth ? <Route path="/form" component={Form} /> : <Redirect to="/" /> }
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
