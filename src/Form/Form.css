@@ -1,0 +1,87 @@
+.form {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form > h3, i {
+    background-color: white;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+    background-color: inherit;
+}
+
+.form > .MuiSvgIcon-root {
+    position: absolute;
+    left: 1000px;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.form > .MuiSvgIcon-root:hover {
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.699);
+}
+
+.form > hr {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.form > h5 {
+    margin: 15px 5px 0 5px 
+}
+
+.form_body {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    margin: 15px 5px 0 5px;
+}
+
+.form_btn {
+    margin: 10px 0;
+    width: fit-content;
+}
+
+.refresh_btn {
+    position: absolute;
+    top: 312px;
+    left: 1000px;
+}
+
+.refresh_btn > .MuiButton-root {
+    text-transform: none;
+    font-size: 12px;
+    right: 50px;
+    background-color: rgba(216, 216, 218, 0.452);
+}
+
+.refresh_icon > .MuiSvgIcon-root {
+    margin-left: 4px;
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 15px;
+}
+
+.results_table {
+    height: 250px;
+    overflow: auto;
+}
+
+.results_table::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.results_table::-webkit-scrollbar-track {
+    color: white;
+}
+  
+.results_table::-webkit-scrollbar-thumb {
+    box-shadow: white;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+}

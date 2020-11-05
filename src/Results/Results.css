@@ -1,0 +1,10 @@
+.results {
+    padding: 10px 5px;
+    background-color: rgba(218, 216, 216, 0.24);
+    margin-bottom: 2px;
+}
+
+.results > a > h5 {
+    font-size: 15px;
+    margin: 0;
+}
