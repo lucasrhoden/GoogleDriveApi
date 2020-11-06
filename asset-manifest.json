@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/GoogleDriveApi/static/css/main.497a242f.chunk.css",
-    "main.js": "/GoogleDriveApi/static/js/main.d2a8e83a.chunk.js",
-    "main.js.map": "/GoogleDriveApi/static/js/main.d2a8e83a.chunk.js.map",
+    "main.js": "/GoogleDriveApi/static/js/main.c43fc99d.chunk.js",
+    "main.js.map": "/GoogleDriveApi/static/js/main.c43fc99d.chunk.js.map",
     "runtime-main.js": "/GoogleDriveApi/static/js/runtime-main.20fbac48.js",
     "runtime-main.js.map": "/GoogleDriveApi/static/js/runtime-main.20fbac48.js.map",
-    "static/js/2.2ab871a9.chunk.js": "/GoogleDriveApi/static/js/2.2ab871a9.chunk.js",
-    "static/js/2.2ab871a9.chunk.js.map": "/GoogleDriveApi/static/js/2.2ab871a9.chunk.js.map",
+    "static/js/2.ed150352.chunk.js": "/GoogleDriveApi/static/js/2.ed150352.chunk.js",
+    "static/js/2.ed150352.chunk.js.map": "/GoogleDriveApi/static/js/2.ed150352.chunk.js.map",
     "index.html": "/GoogleDriveApi/index.html",
     "static/css/main.497a242f.chunk.css.map": "/GoogleDriveApi/static/css/main.497a242f.chunk.css.map",
-    "static/js/2.2ab871a9.chunk.js.LICENSE.txt": "/GoogleDriveApi/static/js/2.2ab871a9.chunk.js.LICENSE.txt"
+    "static/js/2.ed150352.chunk.js.LICENSE.txt": "/GoogleDriveApi/static/js/2.ed150352.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20fbac48.js",
-    "static/js/2.2ab871a9.chunk.js",
+    "static/js/2.ed150352.chunk.js",
     "static/css/main.497a242f.chunk.css",
-    "static/js/main.d2a8e83a.chunk.js"
+    "static/js/main.c43fc99d.chunk.js"
   ]
 }
